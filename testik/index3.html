@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* input[type="text"] {
+            background-color: blue; 
+        } */
+        .check {
+            background-color: #48e6b1;
+            accent-color: red;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+
+        .carrot {
+            color: rgb(107, 20, 220);
+        }
+
+        p {
+            color: rgb(107, 20, 220);
+        }
+
+        .blue {
+            color: blue;
+            border: 1px solid #a712fe;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Элемент формы -->
+    <form>
+        <h2 class="carrot">Данная анкета создана чиста по преколу<h2>
+        
+        
+        <!-- Подсказка (метка) -->
+        <label for="user-name" class="carrot">А как мне тебя называть?</label><br>
+        <!-- элемент ввода (просто текст) -->
+        <input type="text" id="user-name" placeholder="кликай сюда" /><br>
+        <h3 class="carrot">Ну тут надо нажать обязательно!!!</h3>
+        <input type="button" id="just-btn" value="Ну нажми пожалуйста:(" class="carrot"/><br>
+        <h3 class="carrot">Это что бы расслабитсья:)</h3>
+        <button type="button" class="carrot">Антистрессик:3</button>
+        <br>
+        <h3 class="carrot">Выберика кто ты</h3>
+        <select>
+            <option value="0">выбери пожалуйста(</option>
+            <option value="1">мальчик</option>
+            <option value="2">мужчина</option>
+            <option value="3">паркет</option>
+            <option value="4">жещина</option>
+            <option value="5">уже смешарик😎</option>
+        </select>
+        <br>
+        <h3 class="carrot">Пожалуйста выбери что тебе нравится</h3><br>
+        <input type="checkbox" name="checkbox-group" id="" value="1">
+        <h3 class="carrot">Матеша</h3>
+        <input type="checkbox" name="checkbox-group" id="" value="2">
+        <h3 class="carrot">Руссский и литра там</h3>
+        <input type="checkbox" name="checkbox-group" id="" value="3">
+        <h3 class="carrot">Общага,история и география</h3>
+        <input type="checkbox" name="checkbox-group" id="" value="4">
+        <h3 class="carrot">Химбио(Господи дай вам сил)</h3>
+        <input type="checkbox" name="checkbox-group" id="" value="5">
+        <h3 class="carrot">IT(респект😎)</h3>
+        <input type="checkbox" name="checkbox-group" id="" value="6">
+        <h3 class="carrot">Физра(ну типа спортик,ЗОЖ там и т.д.)</h3>
+        <input type="checkbox" name="checkbox-group" id="" value="7">
+        <h3 class="carrot">Физика(You are cool😎)</h3>
+        <br>
+        <h3>Какой у тебя телефон???</h3><br>
+        <input type="radio" name="radio-group" id="" value="4">
+        <h3 class="carrot">Iphone</h3>
+        <input type="radio" name="radio-group" id="" value="5">
+        <h3 class="carrot">Xiomi</h3>
+        <input type="radio" name="radio-group" id="" value="6">
+        <h3 class="carrot">huawei</h3>
+        <input type="radio" name="radio-group" id="" value="6">
+        <h3 class="carrot">Nokia</h3>
+        <input type="radio" name="radio-group" id="" value="6">
+        <h3 class="carrot">Poco</h3>
+        <input type="radio" name="radio-group" id="" value="6">
+        <h3 class="carrot">Motorola</h3>
+        <input type="radio" name="radio-group" id="" value="6">
+        <h3 class="carrot">ну типа телефон как номер телефона типа шутка да</h3>
+        <textarea name="" id="" cols="30" rows="2"></textarea><br>
+        <br>
+        <h3 class="carrot">А какой твой любимый цвет?</h3>
+        <input type="color" name="" id=""><br>
+        <h3 class="carrot">Когда ты родился?(надеюсь меня не посадят)</h3>
+        <input type="date" name="" id=""><br>
+        <h3 class="carrot">Напиши любовное письмо кому нибудь< 3 ну может мне?(((</h3>
+        <textarea name="" id="" cols="30" rows="2"></textarea><br>
+        <!-- Выбор файла -->
+        <h3 class="carrot">скинь мне все пароли в файлик пж</h3>
+        <input type="file" name="" id="" ><br>
+        <br>
+        <h3 class="carrot">Ну как вам анкетка?)))</h3>
+        <input type="range" name="" id="">
+        <p>1  2  3  4  5  6  7  8  9  10</p>
+        <button type="reset" class="carrot">Нажми в конце пожааааалуйста</button><br>
+        <button type="submit" class="carrot">Отправить форму</button>
+    
+    
+    
+    
+    </form>
+
+    <script>
+        let myBtn = document.getElementById("just-btn");
+        myBtn.addEventListener("click", () => {
+            alert("Да ты ваще крутышка!");
+        })
+    </script>
+</body>
+
+</html>
