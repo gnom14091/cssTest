@@ -1,0 +1,14 @@
+.box{
+    height: 100px;
+    width: 100px;
+
+}
+.accent__red{
+    background-color: red;
+}
+.accent__green{
+    background-color: green;
+}
+.accent__blue{
+    background-color: blue;
+}
